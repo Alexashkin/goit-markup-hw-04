@@ -382,7 +382,7 @@ address {
     ;
 }
 
-.team-link {
+.team-link-icon {
     fill: #0f0fad;
 }
 
@@ -401,7 +401,11 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-link:hover:focus {
+.team-link:hover {
+    background-color: #31D0AA;
+}
+
+.team-link:focus {
     background-color: #31D0AA;
 }
 
@@ -472,10 +476,8 @@ address {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #4d5ae5;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 40px;
-    padding-bottom: 164px;
+    height: 100%;
+    padding: 40px 32px;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -549,7 +551,7 @@ address {
 
 }
 
-.soc-media-wrap {}
+
 
 .soc-media-text {
     font-weight: 500;
@@ -557,6 +559,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-link-list {
